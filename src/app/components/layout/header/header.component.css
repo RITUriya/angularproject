@@ -1,0 +1,60 @@
+.header {
+  background-color: darkgoldenrod;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: crimson;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 60px;
+  width: 100%;
+}
+
+@media all and (min-width: 960px) {
+  .usernam {
+    margin-left: 1000px;
+    margin-top: 10px;
+  }
+}
+
+@media all and (min-width: 801px) and (max-width: 959px) {
+  .usernam {
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 800px) {
+  .usernam {
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+}
+
+@media all and (min-width: 569px) and (max-width: 768px) {
+  .usernam {
+    margin-left: 700px;
+    margin-top: 10px;
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 568px) {
+  .usernam {
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+}
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+  .usernam {
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 320px) {
+  .usernam {
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+}

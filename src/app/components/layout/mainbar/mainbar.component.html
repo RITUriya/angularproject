@@ -1,0 +1,29 @@
+<app-header [usernamedisplay]="usernameToDisplay"></app-header>
+<div class="tableSidebar">
+  <div>
+    <app-sidebar></app-sidebar>
+  </div>
+
+  <div class="user">
+    <table class="userDataTable">
+      <tr>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>website</th>
+        <th>Phone</th>
+      </tr>
+      <tbody>
+        <tr *ngFor="let user of userdata">
+          <td (click)="userClick($event)">
+            {{ user.name }}
+          </td>
+          <td>{{ user.username }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.website }}</td>
+          <td>{{ user.phone }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

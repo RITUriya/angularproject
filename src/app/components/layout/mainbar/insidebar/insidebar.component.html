@@ -1,0 +1,22 @@
+<app-header [usernamedisplay]="usernameToDisplay"></app-header>
+<body>
+  <div>
+    <div
+      [ngStyle]="{
+        'background-color': 'red'
+      }"
+    >
+      Name:{{ usernameToDisplay }}
+    </div>
+    <div>Username:</div>
+    <div>Website:</div>
+    <div>Email:</div>
+    <div>Phone:</div>
+    <input
+      type="text"
+      id="username"
+      [(ngModel)]="enterUsername"
+      placeholder="Enter Username"
+    />{{ enterUsername }}
+  </div>
+</body>

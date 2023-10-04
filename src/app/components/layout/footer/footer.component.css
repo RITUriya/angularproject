@@ -1,0 +1,13 @@
+.footer {
+  background-color: darkgoldenrod;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: crimson;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+a {
+  padding: 20px;
+  margin: 20px;
+}
